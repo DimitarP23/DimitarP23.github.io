@@ -1,0 +1,78 @@
+.banner {
+    margin-top: 6rem;
+    width: 100%;
+    border-bottom: 2px solid goldenrod;
+}
+
+.bacontainer {
+    width:fit-content;
+   display: flex;
+   float: right;
+  
+
+}
+
+.text {
+    display: inline;
+    float: left;
+    width: 100%;
+
+}
+
+.text p {
+    font-size: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+
+.text h2 {
+    font-size: 20px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.bigcont{
+   height:30rem;
+}
+.container-why {
+    background: black;
+    border: 2px solid #FDB035;
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 6.5rem;
+    margin-right: 5rem;
+    color: white;
+    border-radius: 53px;
+    width: 70%;
+
+}
+
+
+.container-motivation {
+    background: black;
+    border: 2px solid #FDB035;
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 2.5rem;
+    margin-right: 5rem;
+    color: white;
+    border-radius: 53px;
+    width: 70%;
+   
+
+}
+
+
+.container-init {
+    background: black;
+    border: 2px solid #FDB035;
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 2.5rem;
+    margin-right: 5rem;
+    color: white;
+    border-radius: 51px;
+    width: 70%;
+
+}

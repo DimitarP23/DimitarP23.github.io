@@ -1,0 +1,227 @@
+.banner {
+    margin-top: 6rem;
+    width: 100%;
+    border-bottom: 2px solid goldenrod;
+}
+
+
+
+.bigcont {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6rem;
+    padding: 1.5rem;
+    margin-left: 29rem;
+    margin-right: 29rem;
+    border: 5px solid goldenrod;
+
+}
+
+.grifin-pic {
+    display: inline;
+    float: left;
+    background: linear-gradient(-69deg, #2d0464 0%, #000000 100%);
+    border-radius: 51px;
+    border: 2px solid goldenrod;
+
+
+}
+
+
+.grifin-pic img {
+    border-radius: 51px;
+}
+
+.allprogressbars {
+    display: inline;
+    margin-left: 3rem;
+    margin-top: 3rem;
+
+}
+
+.allprogressbars h1 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.allprogressbars h2 {
+    font-size: 15px;
+    margin-left: 1rem;
+    color: rgba(255, 255, 255, 0.692);
+    padding-bottom: 0.5rem;
+}
+
+.container-progressbar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+
+
+.progress {
+    height: 13px;
+    width: 20rem;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 3px;
+    box-shadow: 5 -10 5 3 rgb(98, 90, 105) inset;
+    border: 2px solid goldenrod;
+}
+
+.fill {
+    border-radius: 51px;
+    background-size: 40px;
+    animation: progressAnimation 5s forwards;
+}
+
+.fill2 {
+    border-radius: 51px;
+    background-size: 40px;
+    animation: progressAnimation2 3s forwards;
+}
+
+.fill3 {
+    border-radius: 51px;
+    background-size: 40px;
+    animation: progressAnimation3 3s forwards;
+}
+
+.fill4 {
+    border-radius: 51px;
+    background-size: 40px;
+    animation: progressAnimation4 3s forwards;
+}
+
+.fill5 {
+    border-radius: 51px;
+    background-size: 40px;
+    animation: progressAnimation5 3s forwards;
+}
+
+
+
+@keyframes progressAnimation {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 80%;
+    }
+
+
+}
+
+@keyframes progressAnimation2 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 69%;
+    }
+
+
+}
+
+@keyframes progressAnimation3 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 55%;
+    }
+
+
+}
+
+@keyframes progressAnimation4 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 73%;
+    }
+
+
+}
+
+@keyframes progressAnimation5 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 80%;
+    }
+
+
+}
+
+
+.a {
+    background: linear-gradient(to right, goldenrod, #2d0464);
+    width: 65%;
+    height: 100%;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sec-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  margin-top: 3rem;
+
+}
+
+
+.container-opp {
+    background: black;
+    border: 2px solid #FDB035;
+    display: flex;
+    color: white;
+    border-radius: 53px;
+    width: 70%;
+    margin-bottom:3rem;
+ 
+}
+.container-th {
+    background: black;
+    border: 2px solid #FDB035;
+    display: flex;
+    color: white;
+    border-radius: 53px;
+    width: 70%;
+    margin-bottom:10rem;
+ 
+}
+
+.text {
+    display: inline;
+    float: left;
+    width: 100%;
+
+}
+
+.text p {
+    font-size: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+
+.text h2 {
+    font-size: 20px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,107 @@
+.banner {
+    margin-top: 6rem;
+    width: 100%;
+    border-bottom: 2px solid goldenrod;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+
+}
+
+.feedback-table {
+    background: linear-gradient(-69deg, #2d0464 0%, #000000 100%);
+    display: flex;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 78px;
+    border: solid goldenrod 2px;
+}
+
+.feedback-table th {
+    color: white;
+    font-size: 30px;
+    padding-top: 2.5rem;
+
+
+}
+
+.type {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0.3rem;
+    padding-left: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 51px;
+    border: solid goldenrod 2px;
+}
+
+.feedback-table td {
+    color: goldenrod;
+    font-size: 25px;
+    display: flex;
+
+}
+
+.feedback-table td ul {
+    padding: 3rem;
+
+}
+
+.feedback-table td li {
+    color: white;
+    font-size: 20px;
+    margin-left: 11rem;
+    padding: 0.3rem;
+
+
+}
+
+.container-opp {
+    background: black;
+    border: 2px solid #FDB035;
+    display: flex;
+    color: white;
+    border-radius: 45px;
+    width: 47%;
+    margin-bottom: 3rem;
+}
+
+.text {
+    display: inline;
+    float: left;
+    width: 100%;
+
+}
+
+.text p {
+    font-size: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+
+.text h2 {
+    font-size: 20px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.img-why{
+    width: 20%;
+    border-bottom-right-radius: 39px;
+    border-top-right-radius: 39px;
+}
+.sec-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+
+}

@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dashboard.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 
@@ -12,128 +13,146 @@
 </head>
 
 <body>
-  <header class="mainheader">
-    <div class="headerlogo">
-      <img src="hzlogo.jpeg" alt="logo">
-      <nav class="navheader">
-        <ul>
-          <li><a href="index.html"> HOME </a></li>
-          <li><a href="profile.html"> PROFILE </a></li>
-          <li><a href="dashboard.html"> PERSONAL DASHBOARD </a></li>
-          <li><a href="faq.html"> FAQ </a></li>
-          <li><a href="blog.html">BLOG </a></li>
-        </ul>
-      </nav>
+
+
+  <header class="header-box">
+    <div class="header-logo">
+      <img src="images/hzlogo.png" alt="logo">
+    </div>
+    <nav class="navheader">
+      <ul>
+        <li><a href="index.html">HOME </a></li>
+        <li><a href="profile.html"> PROFILE </a></li>
+        <li><a href="dashboard.html" class="active"> PERSONAL DASHBOARD </a></li>
+        <li><a href="faq.html"> FAQ </a></li>
+        <li><a href="blog.html">BLOG </a></li>
+      </ul>
+    </nav>
+
+    <div class="menu">
+        
+      <li><a
+              href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20230720.pdf">HBO-ICT
+              CER</a></li>
+      <li><a
+              href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">HBO-ICT
+              IR</a></li>
+      <li><a
+              href="https://fs.myhz.nl/adfs/oauth2/authorize/?resource=urn%3AWebservice-hz_portal&state=0c8227337b75d89cc2f5050f735b7deb&scope=openid&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fportal.hz.nl%2Fauth%2Fadfs%2Fcallback&client_id=b25d3143-ffab-46db-96bd-fff258b69da3&client-request-id=96969e99-a5aa-41f8-ad09-0080020c0031&pullStatus=0">Learn</a>
+      </li>
+      <li><a href="https://portal.hz.nl/en/">My HZ</a></li>
+      <li> <a href="https://github.com/HZ-HBO-ICT">HZ Github</a></li>
+      <li><a href="https://teams.microsoft.com/_#/school/teams-grid/General?ctx=teamsGrid">MS TEAMS</a></li>
+  
+</div>
+  </header>
+
+
+  <main>
+    <img class="dashboardbanner" src="images/dashboardbanner.gif" alt="banner">
+    <div class="container-table">
+      <table class="spacing-table">
+        <tr>
+          <th colspan>COURSE NAME</th>
+          <th colspan>GRADE</th>
+          <th colspan>CREDITS</th>
+          <th colspan>BLOCKS</th>
+        </tr>
+
+        <tr>
+          <td>PCO: Program- & career Orientation</td>
+          <td></td>
+          <td>2.5 EC</td>
+          <td>Block 1</td>
+        </tr>
+
+        <tr>
+          <td>CBA: Computer Science Basics</td>
+          <td></td>
+          <td>5 EC</td>
+          <td>Block 1</td>
+        </tr>
+
+        <tr>
+          <td>PBA: Programming Basics</td>
+          <td></td>
+          <td>5 EC</td>
+          <td>Block 1</td>
+        </tr>
+
+        <tr>
+          <td>PPD-E: Personal Professional Development: Exploration</td>
+          <td></td>
+          <td>12.5 EC</td>
+          <td>Blocks 1,2,3 and 4</td>
+        </tr>
+
+        <tr>
+          <td>OOP: Object Oriented Programming</td>
+          <td></td>
+          <td>10 EC</td>
+          <td>Block 2</td>
+        </tr>
+
+        <tr>
+          <td>IT Personality</td>
+          <td></td>
+          <td>2.5 EC</td>
+          <td>Blocks 2,3 and 4</td>
+        </tr>
+
+        <tr>
+          <td>FPR1: Framework Project 1</td>
+          <td></td>
+          <td>10 EC</td>
+          <td>Block 3</td>
+        </tr>
+
+        <tr>
+          <td>Business IT Consultancy Basics</td>
+          <td></td>
+          <td>2.5 EC</td>
+          <td>Blocks 3 and 4</td>
+        </tr>
+
+        <tr>
+          <td>FPR2: Framework project 2</td>
+          <td></td>
+          <td>10 EC</td>
+          <td>Block 4</td>
+        </tr>
+      </table>
     </div>
 
-
-
-  </header>
-  <main>
-    <table>
-      <tr>
-        <th>Name</th>
-        <th colspan="5">SUBJECTS</th>
-        <th colspan="5">CREDITS</th>
-        <th colspan="5">GRADE</th>
-      </tr>
-      <tr>
-        <td rowspan="3">BLOCK 1</td>
-        <td class="ppd" rowspan="6">
-          <p>PPD</p>
-        </td>
-        <td colspan="4">CSB</td>
-        <td rowspan="6">
-          <p>12.5EC</p>
-        </td>
-        <td colspan="4">5EC</td>
-        <td rowspan="6">
-          <p>0.0</p>
-        </td>
-        <td colspan="4">0.0</td>
-
-      </tr>
-      <tr>
-        <td colspan="4">PB</td>
-        <td colspan="4">5EC</td>
-        <td colspan="4">0.0</td>
-
-      </tr>
-      <tr>
-        <td colspan="4"> PCB</td>
-        <td class="ko" colspan="4">2.5EC </td>
-        <td colspan="4">0.0</td>
-      </tr>
-      <tr>
-
-        <td>BLOCK 2</td>
-        <td class="" rowspan="3">
-          <p>IT PERSONALITY</p>
-        </td>
-        <td colspan="3">OOP</td>
-        <td rowspan="3">
-          <p>2.5EC</p>
-        </td>
-        <td colspan="3">10EC</td>
-        <td rowspan="3">
-          <p>0.0</p>
-        </td>
-        <td colspan="3">0.0</td>
-
-      </tr>
-      <tr>
-        <td>BLOCK 3</td>
-        <td rowspan="2">
-          <p>BUISNESS</p>
-        </td>
-        <td colspan="2">FP1</td>
-        <td rowspan="2">
-          <p>2.5EC</p>
-        </td>
-        <td colspan="2">10EC</td>
-        <td rowspan="2">
-          <p>0.0</p>
-        </td>
-        <td colspan="2">0.0</td>
-
-
-      </tr>
-      <tr>
-        <td>BLOCK 4</td>
-        <td colspan="2">FP2</td>
-        <td colspan="2">10EC</td>
-        <td colspan="2">0.0</td>
-
-      </tr>
-
-
-    </table>
-    <div class="progressbar">
-      <span>PROGRESS</span>
-      <div class="full">
-        <div class="partial">20%</div>
+    <div class="container-progressbar">
+      <div class="progress">
+        <div class="fill a">65%</div>
       </div>
     </div>
+
   </main>
-  <footer class="main-footer">
-    <div class="footer-content">
-      <ul class="socials">
-        <li><a href="https://www.facebook.com/">
-            <div class="socialmedia-fb"><i class="bi bi-facebook"></i></div>
-          </a></li>
-        <li><a href="https://www.instagram.com/">
-            <div class="socialmedia-ig"><i class="bi bi-instagram"></i></div>
-          </a></li>
-        <li><a href="https://www.twitter.com/">
-            <div class="socialmedia-tw"><i class="bi bi-twitter-x"></i></div>
-          </a></li>
-      </ul>
-      <p1>Copyright &copy;2023 All rights reserved</p1>
+
+
+  <footer>
+    <div class="icons-container">
+        <div class="socials">
+            <ul>
+                <li><a href="https://www.facebook.com/">
+                        <i class="bi bi-facebook"></i>
+                    </a></li>
+                <li><a href="https://www.instagram.com/">
+                        <i class="bi bi-instagram"></i>
+                    </a></li>
+                <li><a href="https://www.twitter.com/">
+                        <i class="bi bi-twitter-x"></i>
+                    </a></li>
+            </ul>
+        </div>
     </div>
 
-    </div>
-    </div>
-  </footer>
+    <p1>Copyright &copy;2023 All rights reserved</p1>
+
+</footer>
 </body>
 
 </html>

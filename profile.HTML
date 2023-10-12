@@ -4,35 +4,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="profile.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-
   <title>Welcome</title>
 </head>
 
-<body>
-  <header class="mainheader">
-    <div class="headerlogo">
-      <img src="hzlogo.jpeg" alt="logo">
-      <nav class="navheader">
-        <ul>
-          <li><a href="index.html"> HOME </a></li>
-          <li><a href="profile.html"> PROFILE </a></li>
-          <li><a href="dashboard.html"> PERSONAL DASHBOARD </a></li>
-          <li><a href="faq.html"> FAQ </a></li>
-          <li><a href="blog.html">BLOG </a></li>
-        </ul>
-      </nav>
+<body class="profile-body">
+
+
+  <header class="header-box">
+    <div class="header-logo">
+      <img src="images/hzlogo.png" alt="logo">
     </div>
+    <nav class="navheader">
+      <ul>
+        <li><a href="index.html">HOME </a></li>
+        <li><a href="profile.html" class="active"> PROFILE </a></li>
+        <li><a href="dashboard.html"> PERSONAL DASHBOARD </a></li>
+        <li><a href="faq.html"> FAQ </a></li>
+        <li><a href="blog.html">BLOG </a></li>
+      </ul>
+    </nav>
+
+    <div class="menu">
+        
+      <li><a
+              href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20230720.pdf">HBO-ICT
+              CER</a></li>
+      <li><a
+              href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">HBO-ICT
+              IR</a></li>
+      <li><a
+              href="https://fs.myhz.nl/adfs/oauth2/authorize/?resource=urn%3AWebservice-hz_portal&state=0c8227337b75d89cc2f5050f735b7deb&scope=openid&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fportal.hz.nl%2Fauth%2Fadfs%2Fcallback&client_id=b25d3143-ffab-46db-96bd-fff258b69da3&client-request-id=96969e99-a5aa-41f8-ad09-0080020c0031&pullStatus=0">Learn</a>
+      </li>
+      <li><a href="https://portal.hz.nl/en/">My HZ</a></li>
+      <li> <a href="https://github.com/HZ-HBO-ICT">HZ Github</a></li>
+      <li><a href="https://teams.microsoft.com/_#/school/teams-grid/General?ctx=teamsGrid">MS TEAMS</a></li>
+  
+</div>
   </header>
-  <img class="img-nature" src="nature.jpg" alt="nature">
-
-  <main class="profilecontent">
-
-    <div class="text">
-      <h1>MY MOTIVATION</h1>
 
 
+  <main class="main-content-profile">
+    <img class="img-banner" src="images/bannerprofile.gif" alt="banner"> 
+    <div class="containerpp">
+      <div class="container-list">
+        <h1>ABOUT ME</h1>
+        <ul>
+
+          <br>
+          <li><strong>MY NAME:</strong>Dimitar Petrov</li>
+          <li><strong>HOME COUNTRY:</strong>Bulgaria</li>
+          <li><strong> FAVOURITE MOVIE:</strong>Se7en</li>
+          <br>
+          <br>
+          <li><strong>HOBBIES:</strong>
+            <div class="list-inlist">
+              <ul>
+                <li>mountain biking</li>
+                <li>spearfishing</li>
+                <li>guitar playing</li>
+              </ul>
+            </div>
+
+          <li><strong>QUALITIES/SKILLS</strong>
+            <div class="list-inlist">
+              <ul>
+                <li>Creative</li>
+                <li>Passionate</li>
+                <li>Drawing</li>
+                <li>Hard-working</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="container-image">
+        <img class="profilepic" src="images/profilepic.jpeg" alt="profilepic">
+      </div>
+    </div>
+
+    <div class="container-motivation">
+      <h2>MY MOTIVATION</h2>
       <p>I am motivated not only by the fact that i see myself as a creative person and creativity is the main unit of
         ICT, but also the fact
         that last year i studied a program that was definitely not for me and failed to complete it.I did lost a whole
@@ -42,63 +96,34 @@
         opportunities and will continue to do so.My motivation also comes
         from my friends and family and ofcourse from myself-i know that this time i have choosen the right program and
         feel motivated enough and 100% certain that i will graduate from it.</p>
-
+        <img class="img-nature" src="images/naturebanner.png" alt="nature">
     </div>
-    <img class="profilepic" src="profilepic.jpeg" alt="profilepic">
-
-    <div class="text2">
-      <h2>ABOUT ME</h2>
-      <ul>
-
-        <br>
-        <li><strong>MY NAME:</strong>Dimitar Petrov</li>
-        <li><strong>HOME COUNTRY:</strong>Bulgaria</li>
-        <li><strong> FAVOURITE MOVIE:</strong>Se7en</li>
-        <li><strong>HOBBIES:</strong>
-          <div class="list-inlist">
-            <ul>
-              <li>mountain biking</li>
-              <li>spearfishing</li>
-              <li>guitar playing</li>
-            </ul>
-          </div>
-
-        <li><strong>QUALITIES/SKILLS</strong>
-          <div class="list-inlist">
-            <ul>
-              <li>Creativity</li>
-              <li>Hard-working</li>
-              <li>Drawing</li>
-              <li>Passionate</li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </div>
-
+    
   </main>
 
 
-
-  <footer class="main-footer">
-    <div class="footer-content">
-      <ul class="socials">
-        <li><a href="https://www.facebook.com/">
-            <div class="socialmedia-fb"><i class="bi bi-facebook"></i></div>
-          </a></li>
-        <li><a href="https://www.instagram.com/">
-            <div class="socialmedia-ig"><i class="bi bi-instagram"></i></div>
-          </a></li>
-        <li><a href="https://www.twitter.com/">
-            <div class="socialmedia-tw"><i class="bi bi-twitter-x"></i></div>
-          </a></li>
-      </ul>
-      <p1>Copyright &copy;2023 All rights reserved</p1>
+  <footer>
+    <div class="icons-container">
+        <div class="socials">
+            <ul>
+                <li><a href="https://www.facebook.com/">
+                        <i class="bi bi-facebook"></i>
+                    </a></li>
+                <li><a href="https://www.instagram.com/">
+                        <i class="bi bi-instagram"></i>
+                    </a></li>
+                <li><a href="https://www.twitter.com/">
+                        <i class="bi bi-twitter-x"></i>
+                    </a></li>
+            </ul>
+        </div>
     </div>
 
-    </div>
-    </div>
-  </footer>
+    <p1>Copyright &copy;2023 All rights reserved</p1>
+
+</footer>
+
+
 </body>
 
 </html>

@@ -1,0 +1,120 @@
+/*PROFILE PAGE CSS...............................................................................*/
+.main-content-profile {
+    height: 100%;
+
+}
+
+.containerpp {
+    background: black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rem;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 28rem;
+    padding: 2rem;
+    border: solid #FDB035 2px;
+    border-radius: 51px;
+
+
+}
+
+.container-motivation {
+    background: black;
+    border: 2px solid #FDB035;
+    display: flex;
+    flex-direction: column;
+    width: 53.7rem;
+    height: 25rem;
+    padding: 3rem;
+    margin-left: 28rem;
+    margin-top: 1rem;
+    color: white;
+    border-radius: 51px;
+    margin-bottom: 10rem;
+
+}
+
+.container-motivation h2 {
+    font-size: 20px;
+    margin-left: 2rem;
+}
+
+.container-motivation p {
+    font-size: 20px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.container-image {
+    height: fit-content;
+    display: inline;
+    float: left;
+
+
+}
+
+.profilepic {
+    width: 30rem;
+    border-radius: 13%;
+
+
+
+}
+
+.container-list {
+    background-color: #14213D;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    width: fit-content;
+    height: fit-content;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    display: inline;
+    border: solid white 2px;
+
+
+
+}
+
+.container-list h1 {
+    color: white;
+    margin-left: 8rem;
+    font-size: 20px;
+}
+
+
+.container-list ul {
+    color: white;
+    height: fit-content;
+    font-size: 20px;
+    font-family: monospace;
+    line-height: 30px;
+    margin-top: 0rem;
+    list-style-type: none;
+    margin-left: 4rem;
+}
+
+.list-inlist ul li {
+    font-size: 20px;
+    list-style-type: square;
+}
+
+.container-motivation img{
+    display: flex;
+    width: 111%;
+    height: 111%;
+    align-self: center;
+    
+ 
+}
+
+
+.img-banner {
+    margin-top: 6rem;
+    width: 100%;
+}

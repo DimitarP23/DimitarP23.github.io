@@ -1,0 +1,59 @@
+.banner {
+    margin-top: 5.3rem;
+    width: 100%;
+    border-bottom: 2px solid goldenrod;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index: 1;
+    
+    
+   
+}
+
+.background{
+    height: 35rem;
+    background: linear-gradient(90deg, #000000 0%, #fca311 100%);
+    font-family: 'Montserrat', sans-serif;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    
+}
+
+
+.container{
+    background: black;
+    border: 2px solid #FDB035;
+    display: flex;
+    position: absolute;
+    left: 18rem;
+    bottom: 22rem;
+    color: white;
+    border-radius: 53px;
+    width: 70%;
+
+}
+
+
+.text {
+    display: inline;
+    float: left;
+    width: 100%;
+
+}
+
+.text p {
+    font-size: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+
+.text h1 {
+    font-size: 20px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}

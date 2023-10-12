@@ -1,83 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="blog.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
   <title>Welcome</title>
 </head>
 
+
+
 <body>
-  <header class="mainheader">
-    <div class="headerlogo">
-      <img src="hzlogo.jpeg" alt="logo">
-      <nav class="navheader">
-        <ul>
-          <li><a href="index.html"> HOME </a></li>
-          <li><a href="profile.html"> PROFILE </a></li>
-          <li><a href="dashboard.html"> PERSONAL DASHBOARD </a></li>
-          <li><a href="faq.html"> FAQ </a></li>
-          <li><a href="blog.html">BLOG </a></li>
-        </ul>
-      </nav>
+  <header class="header-box">
+    <div class="header-logo">
+      <img src="images/hzlogo.png" alt="logo">
     </div>
-
-
-
-  </header>
-  <main>
-    <div id="design-cast">
-
-
-      <div class="member">
-        <img src="feedback.jpeg" alt="Responsive image" />
-        <div class="name"> Feedback
-         
-        </div>
-      </div>
-      <div class="member">
-        <img src="experience.webp" alt="Responsive image" />
-        <div class="name">Programming experience
-        </div>
-      </div>
-      <div class="member">
-        <img src="swot.jpeg" alt="Responsive image" />
-        <div class="name">Personal SWOT analysis
-          
-        </div>
-      </div>
-      <div class="member">
-        <img src="studychoice.webp" alt="Responsive image" />
-        <div class="name">Study choice
-          
-        </div>
-      </div>
-    </div>
-
-
-
-
-  </main>
-  <footer class="main-footer">
-    <div class="footer-content">
-      <ul class="socials">
-        <li><a href="https://www.facebook.com/">
-            <div class="socialmedia-fb"><i class="bi bi-facebook"></i></div>
-          </a></li>
-        <li><a href="https://www.instagram.com/">
-            <div class="socialmedia-ig"><i class="bi bi-instagram"></i></div>
-          </a></li>
-        <li><a href="https://www.twitter.com/">
-            <div class="socialmedia-tw"><i class="bi bi-twitter-x"></i></div>
-          </a></li>
+    <nav class="navheader">
+      <ul>
+        <li><a href="index.html">HOME </a></li>
+        <li><a href="profile.html"> PROFILE </a></li>
+        <li><a href="dashboard.html"> PERSONAL DASHBOARD </a></li>
+        <li><a href="faq.html"> FAQ </a></li>
+        <li><a href="blog.html" class="active">BLOG </a></li>
       </ul>
-      <p1>Copyright &copy;2023 All rights reserved</p1>
+    </nav>
+
+    <div class="menu">
+        
+      <li><a
+              href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20230720.pdf">HBO-ICT
+              CER</a></li>
+      <li><a
+              href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">HBO-ICT
+              IR</a></li>
+      <li><a
+              href="https://fs.myhz.nl/adfs/oauth2/authorize/?resource=urn%3AWebservice-hz_portal&state=0c8227337b75d89cc2f5050f735b7deb&scope=openid&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fportal.hz.nl%2Fauth%2Fadfs%2Fcallback&client_id=b25d3143-ffab-46db-96bd-fff258b69da3&client-request-id=96969e99-a5aa-41f8-ad09-0080020c0031&pullStatus=0">Learn</a>
+      </li>
+      <li><a href="https://portal.hz.nl/en/">My HZ</a></li>
+      <li> <a href="https://github.com/HZ-HBO-ICT">HZ Github</a></li>
+      <li><a href="https://teams.microsoft.com/_#/school/teams-grid/General?ctx=teamsGrid">MS TEAMS</a></li>
+  
+</div>
+  </header>
+
+
+
+  <main>
+    <img class="blogbanner" src="images/blogbanner.gif" alt="banner">
+
+    <div class="blog-container">
+
+      <div class="card">
+        <img class="img" src="images/studychoice.png" alt="Card image cap">
+
+        <h5 class="card-title">STUDY CHOICE</h5>
+        <p class="card-text">
+          "Study choice" involves selecting an educational path based on interests, career goals, and academic
+          strengths to achieve personal and professional aspirations.
+        </p>
+        <a href="studychoice.html" class="button">OPEN PAGE</a>
+
+      </div>
+
+      <div class="upper">
+        <div class="card">
+          <img class="img" src="images/swot.png" alt="Card image cap">
+
+          <h5 class="card-title">PERSONAL SWOT ANALYSIS</h5>
+          <p class="card-text">Uncover strengths, address weaknesses, seize opportunities, and face threats: SWOT
+            analysis guides personal growth and success."</p>
+          <a href="psa.html" class="button">OPEN PAGE</a>
+        </div>
+
+      </div>
+
+      <div class="card">
+        <img class="img" src="images/feedback.png" alt="Card image cap">
+
+        <h5 class="card-title">FEEDBACK</h5>
+        <p class="card-text">Feedback is information provided about one's performance, behavior, or work. It
+          helps individuals understand their strengths and areas for improvement, enabling growth.
+        </p>
+        <a href="feedback.html" class="button">OPEN PAGE</a>
+
+      </div>
+
+      <div class="upper">
+        <div class="card">
+          <img class="img" src="images/programmingex.png" alt="Card image cap">
+
+          <h5 class="card-title">PROGRAMMING EXPERIENCE</h5>
+          <p class="card-text">Programming experience refers to hands-on practice and exposure to writing, designing,
+            ,implementing computer programs and understanding of software
+            development."</p>
+          <a href="pe.html" class="button">OPEN PAGE</a>
+        </div>
+
+      </div>
+
+      <div class="card">
+        <img class="img" src="images/field.png" alt="Card image cap">
+
+        <h5 class="card-title">ICT FIELD OF WORK</h5>
+        <p class="card-text">The ICT field encompasses roles involving the
+          use, management, and development of technology to handle and transmit information effectively in various
+          sectors.</p>
+        <a href="workfield.html" class="button">OPEN PAGE</a>
+      </div>
+    </div>
+  </main>
+
+
+
+  <footer>
+    <div class="icons-container">
+      <div class="socials">
+        <ul>
+          <li><a href="https://www.facebook.com/">
+              <i class="bi bi-facebook"></i>
+            </a></li>
+          <li><a href="https://www.instagram.com/">
+              <i class="bi bi-instagram"></i>
+            </a></li>
+          <li><a href="https://www.twitter.com/">
+              <i class="bi bi-twitter-x"></i>
+            </a></li>
+        </ul>
+      </div>
     </div>
 
-    </div>
-    </div>
+    <p1>Copyright &copy;2023 All rights reserved</p1>
+
   </footer>
 </body>
 
